@@ -1,0 +1,112 @@
+.hero{
+  width: 100%;
+  color: #000;
+  position: relative;
+  text-align: center;
+}
+
+.hero h1{
+  font-size: 72px;
+  margin: 0px 0 20px;
+  font-weight: 600;
+}
+
+.hero img{
+  width: 600px;
+}
+
+.hero p{
+  margin: 20px 0 20px;
+  font-size: 20px;
+}
+
+.hero-btn1{
+  display: inline-block;
+  text-decoration: none;
+  color: #000;
+  border: 2px solid #D7A67B;
+  border-radius: 25px;
+  padding: 12px 24px;
+  right: 0.5%;
+  font-size: 20px;
+  font-weight: 550;
+  background-color: #D7A67B;
+  position: relative;
+  cursor: pointer;
+}
+
+.hero-btn1:hover{
+  background-color: #fff;
+  transition: 0.5s;
+}
+
+.hero-btn2{
+  display: inline-block;
+  text-decoration: none;
+  color: #000;
+  border: 2px solid #BD99BD;
+  border-radius: 25px;
+  padding: 12px 24px;
+  left: 0.5%;
+  font-size: 20px;
+  font-weight: 550;
+  background-color: #fff;
+  position: relative;
+  cursor: pointer;
+}
+
+.hero-btn2:hover{
+  background-color: #BD99BD;
+  transition: 0.5s;
+}
+
+.mainsec{
+  padding: 2em 7em;
+  text-align: center;
+}
+
+.mainsec-head{
+  display: flex;
+  align-content: space-evenly;
+  padding: 1em 14em;
+  align-items: center;
+}
+
+.mainsec-head h2{
+  font-size: 60px;
+  font-weight: 500;
+}
+
+.mainsec-head img{
+  width: 500px;
+}
+
+.mainsec p{
+  font-size: 20px;
+}
+
+.pointsec{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.sec{
+  width: 550px;
+  height: 600px;
+  padding: 1em;
+  text-align: center;
+}
+
+.sec h2{
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.sec img{
+  padding: 20px;
+  width: 500px;
+}
+
+.sec p{
+  font-size: 18px;
+}
